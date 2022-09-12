@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+.overline{
+	display: inline-block;
+	width: 100%;
+	height: 7%;
+    background-attachment:fixed ; 
+	position: fixed;
+    background-color: black;
+	border-radius: 0px 0px 10px 10px;
+}
+.language{
+	display: inline-block;
+	margin:1 ;
+	font-size: 40px;
+	white-space: nowrap;
+}
+.Main{
+	font-size: 1.5vw;
+	margin-left: 20%;
+	margin-top:0.8% ;
+	display: inline-block;
+	white-space:nowrap;
+	border-radius: 10px;
+	font-family: 'Brush Script MT', cursive;
+}
+.routine{
+	font-size: 1.5vw;
+	margin-left: 7%;
+	margin-top:0.8% ;
+	display: inline-block;
+	white-space:nowrap;
+	border-radius: 10px;
+	font-family: 'Brush Script MT', cursive;
+}
+.helppage{
+	font-size: 1.5vw;
+	margin-left: 7%;
+	margin-top:0.8% ;
+	display: inline-block;
+	white-space:nowrap;
+	border-radius: 10px;
+	font-family: 'Brush Script MT', cursive;
+}
+.economy{
+	font-size: 1.5vw;
+	margin-left: 7%;
+	margin-top:0.8% ;
+	display: inline-block;
+	white-space:nowrap;
+	border-radius: 10px;
+	font-family: 'Brush Script MT', cursive;
+}
+.technicalpage{
+	font-size: 1.5vw;
+	margin-left: 7%;
+	margin-top:0.8% ;
+	display: inline-block;
+	white-space:nowrap;
+	border-radius: 10px;
+	font-family: 'Brush Script MT', cursive;
+}
+.account{
+	width:3vw ;
+	height:3vw;
+	margin-left: 10%;
+	margin-top:0.1% ;
+	display: inline-block;
+	white-space:nowrap;
+
+}
+.boxb1{
+	display: inline-block;
+	max-width: 15%;
+	height: 1500px;
+	border:0px ;
+    background-attachment:fixed ; 
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+.boxb2{
+	display:inline-block;
+	max-width: 15%;
+	height: 1500px;
+	border:0px ;
+    background-attachment:fixed ; 
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
